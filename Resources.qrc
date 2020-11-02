@@ -1,16 +1,16 @@
 <RCC>
-    <qresource prefix="/Imgs">
+    <qresource prefix="/Images">
         <file>Icons/Actions-cut-icon.png</file>
         <file>Icons/Actions-file-save-as-icon.png</file>
         <file>Icons/Actions-floppy-save-icon.png</file>
         <file>Icons/Actions-save-all-icon.png</file>
+        <file>Icons/arrow-redo-icon.png</file>
+        <file>Icons/arrow-undo-icon.png</file>
+        <file>Icons/Close-icon.png</file>
         <file>Icons/Copy-icon.png</file>
         <file>Icons/Document-icon.png</file>
         <file>Icons/Documents-icon.png</file>
         <file>Icons/Document-Write-icon.png</file>
         <file>Icons/Paste-icon.png</file>
-        <file>Icons/Close-icon.png</file>
-        <file>Icons/arrow-redo-icon.png</file>
-        <file>Icons/arrow-undo-icon.png</file>
     </qresource>
 </RCC>

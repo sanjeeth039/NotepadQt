@@ -80,13 +80,16 @@
    <addaction name="actionSaveAs"/>
    <addaction name="actionExit"/>
    <addaction name="actionCopy"/>
+   <addaction name="actionPaste"/>
+   <addaction name="actionCut"/>
    <addaction name="actionUndo"/>
    <addaction name="actionRedo"/>
   </widget>
   <action name="actionNew">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/Imgs/Icons/Document-icon.png</normaloff>:/Imgs/Icons/Document-icon.png</iconset>
+    <iconset>
+     <normaloff>:/Imgs/Icons/Document-icon.png</normaloff>
+     <normalon>:/Images/Icons/Document-icon.png</normalon>:/Imgs/Icons/Document-icon.png</iconset>
    </property>
    <property name="text">
     <string>New</string>
@@ -94,8 +97,9 @@
   </action>
   <action name="actionOpen">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/Imgs/Icons/Documents-icon.png</normaloff>:/Imgs/Icons/Documents-icon.png</iconset>
+    <iconset>
+     <normaloff>:/Imgs/Icons/Documents-icon.png</normaloff>
+     <normalon>:/Images/Icons/Documents-icon.png</normalon>:/Imgs/Icons/Documents-icon.png</iconset>
    </property>
    <property name="text">
     <string>Open</string>
@@ -103,8 +107,9 @@
   </action>
   <action name="actionSave">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/Imgs/Icons/Actions-floppy-save-icon.png</normaloff>:/Imgs/Icons/Actions-floppy-save-icon.png</iconset>
+    <iconset>
+     <normaloff>:/Imgs/Icons/Actions-floppy-save-icon.png</normaloff>
+     <normalon>:/Images/Icons/Actions-floppy-save-icon.png</normalon>:/Imgs/Icons/Actions-floppy-save-icon.png</iconset>
    </property>
    <property name="text">
     <string>Save</string>
@@ -112,8 +117,9 @@
   </action>
   <action name="actionSaveAs">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/Imgs/Icons/Actions-file-save-as-icon.png</normaloff>:/Imgs/Icons/Actions-file-save-as-icon.png</iconset>
+    <iconset>
+     <normaloff>:/Imgs/Icons/Actions-file-save-as-icon.png</normaloff>
+     <normalon>:/Images/Icons/Actions-file-save-as-icon.png</normalon>:/Imgs/Icons/Actions-file-save-as-icon.png</iconset>
    </property>
    <property name="text">
     <string>SaveAs</string>
@@ -126,8 +132,9 @@
   </action>
   <action name="actionExit">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/Imgs/Icons/Close-icon.png</normaloff>:/Imgs/Icons/Close-icon.png</iconset>
+    <iconset>
+     <normaloff>:/Imgs/Icons/Close-icon.png</normaloff>
+     <normalon>:/Images/Icons/Close-icon.png</normalon>:/Imgs/Icons/Close-icon.png</iconset>
    </property>
    <property name="text">
     <string>Exit</string>
@@ -135,8 +142,9 @@
   </action>
   <action name="actionCopy">
    <property name="icon">
-    <iconset resource="Resources.qrc">
-     <normaloff>:/Imgs/Icons/Copy-icon.png</normaloff>:/Imgs/Icons/Copy-icon.png</iconset>
+    <iconset>
+     <normaloff>:/Imgs/Icons/Copy-icon.png</normaloff>
+     <normalon>:/Images/Icons/Copy-icon.png</normalon>:/Imgs/Icons/Copy-icon.png</iconset>
    </property>
    <property name="text">
     <string>Copy</string>
@@ -145,7 +153,7 @@
   <action name="actionPaste">
    <property name="icon">
     <iconset>
-     <normalon>:/Imgs/Icons/Paste-icon.png</normalon>
+     <normalon>:/Images/Icons/Paste-icon.png</normalon>
     </iconset>
    </property>
    <property name="text">
@@ -155,7 +163,7 @@
   <action name="actionCut">
    <property name="icon">
     <iconset>
-     <normalon>:/Imgs/Icons/Actions-cut-icon.png</normalon>
+     <normalon>:/Images/Icons/Actions-cut-icon.png</normalon>
     </iconset>
    </property>
    <property name="text">
@@ -165,7 +173,7 @@
   <action name="actionUndo">
    <property name="icon">
     <iconset>
-     <normalon>:/Imgs/Icons/arrow-undo-icon.png</normalon>
+     <normalon>:/Images/Icons/arrow-undo-icon.png</normalon>
     </iconset>
    </property>
    <property name="text">
@@ -175,7 +183,7 @@
   <action name="actionRedo">
    <property name="icon">
     <iconset>
-     <normalon>:/Imgs/Icons/arrow-redo-icon.png</normalon>
+     <normalon>:/Images/Icons/arrow-redo-icon.png</normalon>
     </iconset>
    </property>
    <property name="text">
@@ -183,8 +191,6 @@
    </property>
   </action>
  </widget>
- <resources>
-  <include location="Resources.qrc"/>
- </resources>
+ <resources/>
  <connections/>
 </ui>
