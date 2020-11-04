@@ -12,5 +12,7 @@
         <file>Icons/Documents-icon.png</file>
         <file>Icons/Document-Write-icon.png</file>
         <file>Icons/Paste-icon.png</file>
+        <file>Icons/Search-icon.png</file>
+        <file>Icons/Actions-document-find-icon.png</file>
     </qresource>
 </RCC>

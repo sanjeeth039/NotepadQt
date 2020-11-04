@@ -8,6 +8,7 @@
 #include <QMessageBox>
 #include <QPrinter>
 #include <QPrintDialog>
+#include "filesearchdialog.h"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -42,8 +43,11 @@ private slots:
 
     void on_actionRedo_triggered();
 
+    void on_actionsearch_file_triggered();
+
 private:
     Ui::MainWindow *ui;
     QString currFile = "";
+    FileSearchDialog *pFileSearch;
 };
 #endif // MAINWINDOW_H
